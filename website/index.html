@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Delight</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+                <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Cakes</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#login">Login</a></li>
+        </ul>
+    </nav>
+   
+
+    
+    
+    
+    <section id="home" class="hero-section">
+        <div class="hero-content animate-on-load">
+            <h1>Welcome to Cake Delight</h1>
+            <p class="tagline">Sweetness in Every Bite – baked with love, served with delight.</p>
+            <a href="#products" >Browse Cakes</a>
+        </div>
+    </section>
+
+    <section id="products" class="products-section">
+        <h2 class="section-title">Our Signature Cakes</h2>
+        <div class="product-cards">
+            <div class="card animate-on-scroll">
+                <img src="chocolatr.jpg">
+                <h3>Chocolate Truffle</h3>
+                <p>Rich chocolate sponge layered with silk and decadent truffles.</p>
+            </div>
+            <div class="card animate-on-scroll">
+                <img src="reeed.jpg">
+                <h3>Red Velvet</h3>
+                <p>Classic cake with cream cheese frosting and a hint of cocoa.</p>
+            </div>
+            <div class="card animate-on-scroll">
+                <img src="blueberry.jpg" alt="Lemon Drizzle Cake">
+                <h3>Blueberry</h3>
+                <p>Fruity cake with fresh blueberries and creamy frosting for a sweet treat.</p>
+            </div>
+            <div class="card animate-on-scroll">
+                <img src="white forest.jpg">
+                <h3>White Forest</h3>
+                <p>Light vanilla sponge layered with cream, cherries, and white chocolate for a refreshing dessert.</p>
+            </div>
+            <div class="card animate-on-scroll">
+                <img src="fruits.jpg">
+                <h3>Fruit Cake</h3>
+                <p>Colorful blend of dried and candied fruits, and nuts, perfect for festive occasions and celebrations.</p>
+            </div>
+            <div class="card animate-on-scroll">
+                <img src="caramel.jpg" alt="Caramel Cheesecake">
+                <h3>Caramel Cheesecake</h3>
+                <p>Creamy cake with a buttery base and caramel topping.</p>
+            </div>
+        </div>
+    </section>
+   
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact Us</h2>
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" id="Name" name="Name" required>
+            </div>
+            <div class="form-group">
+                <label for="Number">Number</label>
+                <input type="email" id="Number" name="Number" required>
+            </div>
+        </form>
+    </section>
+   
+    <section id="login" class="login-section">
+        <h2 class="section-title">Login Portal</h2>
+        <form id="loginForm" class="login-form">
+            <div class="form-group">
+                <label for="loginEmail">Email</label>
+                <input type="email" id="loginEmail" name="loginEmail" required>
+            </div>
+            <div class="form-group password-group">
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" name="loginPassword" required>
+            </div>
+        </form>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
